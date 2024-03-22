@@ -4,6 +4,7 @@ import ExitFrame from "./ExitFrame";
 import Index from "./pages/Index";
 import BillingAPI from "./pages/debug/Billing";
 import GetData from "./pages/debug/Data";
+import ResourcePicker from "./pages/debug/ResourcePicker";
 import DebugIndex from "./pages/debug/Index";
 import ActiveWebhooks from "./pages/debug/Webhooks";
 
@@ -15,6 +16,7 @@ const routes = {
   "/debug/webhooks": () => <ActiveWebhooks />,
   "/debug/billing": () => <BillingAPI />,
   "/debug/data": () => <GetData />,
+  "/debug/ResourcePicker": () => <ResourcePicker />,
 
   //Add your routes here
 };
